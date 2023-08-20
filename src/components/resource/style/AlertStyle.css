@@ -1,0 +1,33 @@
+@import url("./SelectOpcionStyle.css");
+body{
+    overflow: hidden;
+}
+.block_alert{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: var(--Color);
+    font-size: 2rem;
+    font-weight: 900;
+    background-color: var(--ColorFondo);
+    width: 100%;
+    height: 100%;
+    border:  solid 1px var(--ColorClaro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  
+}
+
+.svg1{
+    color: red;
+}
+.svg2{
+    color: rgb(5, 156, 13);
+}
+svg{
+    width: 3rem;
+    height: 3rem;
+}

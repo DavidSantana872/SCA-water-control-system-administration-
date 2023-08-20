@@ -1,0 +1,75 @@
+:root{
+    --ColorPincipal : #000000;
+    --ColorTitulo : #2A3B47;
+    --ColorContenido : #697477;
+    --ColorClaro : #A0A7AC;
+    --ColorFondo : #FBFBFE;
+    --ColorText : #0f98fa;
+
+}
+
+body{
+    height: 100vh;
+    background-color: var(--ColorFondo);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: var(--ColorTitulo);
+}
+.BlockSelect_Menu{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.title_box_target, .IconoOpcion, .box_target{
+    background-color: var(--ColorFondo);
+    color: var(--ColorTitulo);
+    font-weight: 700;
+    font-size: x-large;
+}
+.box_target{
+    margin: 1rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid var(--ColorClaro) 1px;
+}
+.box_target:hover{
+   
+    border: solid var(--ColorPincipal) 1px;
+    cursor:pointer;
+    animation-name: ani;
+    animation-duration: 250ms;
+    animation-fill-mode: both;
+    transform: scale(1.1);
+    transition-duration: 100ms;
+
+}
+@keyframes ani {
+    from{
+        box-shadow: var(--ColorClaro) 0px 0px 0px -10px; 
+    }
+    to{
+        box-shadow: var(--ColorClaro) 10px 10px 1px -2px; 
+    }
+}
+  
+.box_target:hover > p{
+    color: var(--ColorPincipal);
+}
+.box_target > img{
+    height: 50%;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+}

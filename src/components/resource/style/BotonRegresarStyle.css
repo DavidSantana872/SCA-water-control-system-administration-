@@ -1,0 +1,40 @@
+@import url("./SelectOpcionStyle.css");
+.bi-houses-fill{
+    color: var(--ColorClaro);
+    width: 1.2rem;
+}
+/*--ColorPincipal : #000000;
+    --ColorTitulo : #2A3B47;
+    --ColorContenido : #697477;
+    --ColorClaro : #A0A7AC;
+    --ColorFondo : #FBFBFE;
+    --ColorText : #0f98fa;*/
+.boton_regresar:hover > .bi-houses-fill{
+    color: var(--ColorText);
+   
+}
+.boton_regresar{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: var(--ColorClaro) solid 2px;
+    font-weight: 500;
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border-radius: 3rem;
+}
+.boton_regresar:hover{
+    transform: scale(1.1);
+    transition-duration: 100ms;
+  
+    border: solid 2px var(--ColorText);
+    box-shadow: var(--ColorText) 0px 0px 20px;
+}
+
+

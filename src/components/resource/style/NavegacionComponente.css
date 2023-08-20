@@ -1,0 +1,17 @@
+@import url("./SelectOpcionStyle.css");
+.TitleNavegacion{
+    border-left:2px solid var(--ColorFondo);
+    position:absolute;
+    top: 10px;
+    left: 5rem;
+    height: 2.2rem;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: x-large;
+    font-weight: 900;
+    color: var(--ColorFondo);
+    padding-left: 1rem;
+    text-transform: uppercase;
+}

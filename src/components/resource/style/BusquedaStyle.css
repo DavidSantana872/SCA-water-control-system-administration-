@@ -1,0 +1,67 @@
+@import url("SelectOpcionStyle.css");
+.title_busqueda{
+    color: var(--ColorTitulo);
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0px;
+    position: relative;
+    top: -4.5rem;
+    left: -3rem;
+    background-color: var(--ColorFondo);
+}
+.block{
+    border: solid var(--ColorClaro) 1px;
+    padding: 2rem 4rem 4rem 4rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boton_buscar{
+    height: 3.24rem;
+    width: 5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-size: large;
+    border:  solid var(--ColorText) 1px;
+    background-color: var(--ColorText);
+    color: var(--ColorFondo);
+    font-weight: 900;
+    
+}
+
+.boton_buscar:hover{
+    background-color: var(--ColorFondo);
+    color: var(--ColorText);
+}
+
+.busqueda{
+    font-size: large;
+    display: flex;
+}
+.busqueda_entrada{
+    width: 20rem;
+    height: 3rem;
+    color: var(--ColorTitulo);
+    border: solid var(--ColorPrincipal) 1px;
+    font-size: large;
+    border-top: solid 1px var(--ColorClaro);
+    border-left: solid 1px var(--ColorClaro);
+    border-bottom: solid 1px var(--ColorClaro);
+    border-right: 0px solid none;
+    padding-left: 25px;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    outline: none;
+}
+.busqueda_entrada::placeholder{
+    color: var(--ColorClaro);
+}
+.busqueda_entrada:focus{
+    border-top: solid 1px var(--ColorText);
+    border-left: solid 1px var(--ColorText);
+    border-bottom: solid 1px var(--ColorText);
+    border-right: 0px solid none;
+}
+
