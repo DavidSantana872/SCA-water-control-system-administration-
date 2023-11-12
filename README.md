@@ -1,6 +1,10 @@
 ![Software](https://img.shields.io/badge/Type-%20CRUD_SOFTWARE-green)
 ![VERSION](https://img.shields.io/badge/Estado-%20En_Desarrollo-red)
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-%20React-blue)
+![Express.js](https://img.shields.io/badge/Express.js%20-blue)
+![CSS3](https://img.shields.io/badge/CSS3%20-blue)
+![SQL](https://img.shields.io/badge/SQL%20-blue)
+
 <h1>Sistema de Administración de Inventario y Facturación de Agua Potable</h1>
 
 <p>Este proyecto de software de código abierto está diseñado específicamente para brindar a los administradores de servicios de agua potable una solución integral para automatizar y optimizar el proceso de facturación. El sistema ofrece tanto una aplicación de escritorio como una aplicación móvil para recopilar datos de manera eficiente y realizar tareas esenciales relacionadas con la administración de inventario y la generación de facturas.
